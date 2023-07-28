@@ -1,2 +1,9 @@
 git
 // main, master, develop
+
+dev1
+(main) > git pull
+main > git checkout feature1
+feature2 > git add .
+feature2 > git commit -m "completed"
+feature2 > git push
