@@ -3,7 +3,7 @@ git
 
 dev1
 (main) > git pull
-main > git checkout feature1
+main > git checkout feature2
 feature2 > git add .
 feature2 > git commit -m "completed"
 feature2 > git push
