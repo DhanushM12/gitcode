@@ -1,2 +1,15 @@
 git
 // main, master, develop
+
+
+// dev1 - task1, dev2 - task2
+
+mylearningrepo (main)
+git clone https://github.com/DhanushM12/gitcode.git
+
+dev1
+(main) > git pull
+main > git checkout feature1
+feature1 > git add .
+feature1 > git commit -m "completed"
+feature1 > git push
