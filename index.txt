@@ -1,9 +1,32 @@
 git
 // main, master, develop
 
+// dev1 - task1, dev2 - task2
+
+mylearningrepo (main)
+git clone https://github.com/DhanushM12/gitcode.git
+
 dev1
+(main) > git pull
+main > git checkout feature1
+feature1 > git add .
+feature1 > git commit -m "completed"
+feature1 > git push
+
+dev2
 (main) > git pull
 main > git checkout feature2
 feature2 > git add .
 feature2 > git commit -m "completed"
+feature2 > git push
+
+solving merge conflicts
+feature2 > git checkout main
+main > git pull
+main > git checkout feature2
+feature2 > git merge main
+// here you solve merge conflicts with options
+Accept incoming (main) | Accept current (feature2) | Both | Compare
+feature2 > git add .
+feature2 > git commit -m "resbasing and solving merge conflict"
 feature2 > git push
